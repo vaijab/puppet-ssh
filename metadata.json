@@ -1,0 +1,27 @@
+{
+  "name": "vaijab-ssh",
+  "version": "0.0.1",
+  "author": "Vaidas Jablonskis",
+  "license": "Apache-2.0",
+  "summary": "A module for managing ssh agent and server",
+  "source": "https://github.com/vaijab/puppet-ssh",
+  "project_page": "https://forge.puppetlabs.com/vaijab/ssh",
+  "issues_url": "https://github.com/vaijab/puppet-ssh/issues",
+  "tags": ["ssh", "openssh"],
+  "operatingsystem_support": [
+      {
+          "operatingsystem":"RedHat",
+          "operatingsystemrelease":[ ">=5.0" ]
+          },
+      {
+          "operatingsystem":"Fedora",
+          "operatingsystemrelease":[ ">=19" ]
+          },
+      {
+          "operatingsystem": "Ubuntu",
+          "operatingsystemrelease": [ ">=12.04" ]
+          }
+     ],
+  "dependencies": [
+    ]
+}
